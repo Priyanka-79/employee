@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+	
+	<script type="text/javascript" src="home.js"></script>
+	<style type="text/css">
+		#main{
+			border: 1px solid red;
+			width: 70%;
+			margin: auto;
+			padding: 30px;
+			background-color: lightblue;
+			text-align: center;
+		}
+	</style>
+</head>
+<body >
+<div id="main">
+<form  >
+EMPLOYEE_ID:<input type="text" name="id"  ng-model="newdata.id" ><br><br>
+FIRSTNAME :<input type="text" name="fname" ng-model="newdata.name" ><br><br>
+BIRTHDATE :<input type="date" name="bday" ng-model="newdata.birthdate"><br><br>
+<a href="#!save"><button ng-click="addItem()">SAVE</button></a>
+<a href="#!cancel"><button>CANCEL</button></a>
+</form>
+</div>
+</body>
+</html>

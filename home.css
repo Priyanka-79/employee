@@ -1,0 +1,102 @@
+		.home{
+		box-sizing: border-box;
+		margin:auto;
+		width: 60%;
+		height: 300px;
+		border: 2px solid #e8f9f8;
+		background-color:#e8f9f8; 
+		text-align: center;
+		border-radius: 4%;
+		padding-top: 40px;
+		margin-top: 5%;
+		border-style: outset;
+	}
+		li{
+			
+			list-style-type: none;
+			display: inline-block;
+			height: 40px;
+			width: 200px;
+			 background-color: white; 
+		    color: black; 
+		    border: 2px solid #008CBA;
+		    border-radius: 5px;
+
+	}
+	li:hover{
+		 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		 background-color: #008CBA;
+         color: white;
+		}
+	li a{
+			text-decoration: none;
+			padding: 30px;
+			color:black;
+			
+		}
+		li a:hover{
+			
+			color:white;
+			
+		}
+
+	#drop {
+			    display: none;
+			    position: absolute;
+			    background-color: #008CBA;
+			    min-width: 160px;
+			   //	padding: 12px 16px;
+			   	border: 2px solid white;
+			   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			   z-index: 1; 
+			}
+	#drop a{
+		color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	    //text-align: left;
+	}
+	#drop a:hover {
+		color: white;
+	}
+	#dropdown:hover #drop{
+    display: block;
+	}
+
+	#dropdown:hover #drop{
+			display: inline-block;
+			margin: 30px 0px;
+		}
+	#mainpage{
+			text-align: center;
+		}
+	#bottom{
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+	}
+
+
+table,td{
+border: 1px solid black;
+border-collapse: collapse;
+  padding: 5px;	
+}
+#add1{
+	padding: 20px 50px;
+	margin:10px 40%;
+	font-size: 30px;
+
+}
+.focus:hover{
+	background-color: red;
+}
+#main{
+			border: 1px solid red;
+			width: 70%;
+			margin: auto;
+			padding: 30px;
+			background-color: lightblue;
+			text-align: center;
+		}

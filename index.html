@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script type="text/javascript" src="home.js"></script>
+
+</head>
+<body ng-app="myApp" ng-controller="myCtrl1">
+<nav >
+	<ul id="mainpage">
+		<li><a href="#">HOME</a></li>
+		<li id="dropdown"><a href="#!empolyee">EMPLOYEE</a>
+			<div id="drop" >
+				<a href="#!employeelist">Employeelist</a>
+			</div>
+		</li>
+	</ul>
+</nav>
+<div ng-view>
+
+
+</div>
+<footer id="bottom">
+	<p>Copyright</p>
+</footer>
+</body>
+</html>
